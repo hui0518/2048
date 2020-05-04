@@ -1,0 +1,71 @@
+.grid {
+    display: grid;
+    border: 1px solid black;
+    grid-template: repeat(4, 90px) / repeat(4, 90px);
+    width: 400px;
+    height: 400px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    background-color: #b9aea2;
+}
+
+.item {
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+}
+
+button {
+    font-size: 20px;
+}
+
+.tile {
+    color: black;
+    width: 90px;
+    height: 90px;
+    font-size: 25px;
+    line-height: 90px;
+    text-align: center;
+}
+
+.n0 {
+    color: #b9aea2;
+}
+
+.n2 {
+    background-color: #ede4db;
+}
+
+.n4 {
+    background-color: #ebe0cb;
+}
+
+.n8 {
+    background-color: #e9b382;
+}
+
+.n16 {
+    background-color: #e8996d;
+}
+
+.n32 {
+    background-color: #e78267;
+}
+
+.n64 {
+    background-color: #e5704d;
+}
+
+.n128,
+.n256,
+.n512,
+.n1024,
+.n2048,
+.n4096,
+.n8192,
+.n16384 {
+    background-color: #e9cf7f;
+}
